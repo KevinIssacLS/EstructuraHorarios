@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    font-family: Noto Sans, Montserrat;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    transition: 0.5s;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #ADB5BD;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #495057;
+  }
+  ::-webkit-scrollbar:hover {
+    background-color: #ADB5BD;
+  }
+  
+  ::selection {
+    background-color: #682444;
+    color: #F8F9FA;
+  }
+
+@import "tailwindcss";
+
+@theme {
+    --color-theme-primary: #5a1232;
+    --color-theme-secondary: #5b262e;
+    --color-theme-accent: #682444;
+    --color-theme-white: #F8F9FA;
+    --color-theme-black: #212529;
+}
